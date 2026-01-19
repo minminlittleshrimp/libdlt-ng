@@ -1,0 +1,15 @@
+[package]
+name = "dlt-user"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dlt_user"
+path = "mod.rs"
+
+[[bin]]
+name = "dlt-example-user"
+path = "dlt-example-user.rs"
+
+[dependencies]
+dlt-ng = { path = "../lib" }

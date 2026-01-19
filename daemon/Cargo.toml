@@ -1,0 +1,13 @@
+[package]
+name = "dlt-daemon"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "dlt-daemon"
+path = "main.rs"
+
+[dependencies]
+dlt-core = { path = "../core" }
+dlt-transport = { path = "../transport" }
+dlt-buffer = { path = "../buffer" }

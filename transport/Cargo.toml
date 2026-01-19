@@ -1,0 +1,13 @@
+[package]
+name = "dlt-transport"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dlt_transport"
+path = "mod.rs"
+
+[dependencies]
+# Minimal dependencies for transport layer
+nix = { version = "0.29", features = ["socket"] }
+libc = "0.2"

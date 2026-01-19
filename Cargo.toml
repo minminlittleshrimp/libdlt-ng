@@ -1,0 +1,7 @@
+[workspace]
+members = ["core", "transport", "buffer", "lib", "daemon", "user", "client", "benchmark"]
+resolver = "2"
+
+[workspace.dependencies]
+crossbeam = "0.8"
+once_cell = "1.19"

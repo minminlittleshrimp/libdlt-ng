@@ -1,0 +1,11 @@
+[package]
+name = "dlt-buffer"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dlt_buffer"
+path = "mod.rs"
+
+[dependencies]
+crossbeam = { workspace = true }

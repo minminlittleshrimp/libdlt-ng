@@ -1,0 +1,17 @@
+[package]
+name = "dlt-client"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dlt_client"
+path = "mod.rs"
+
+[[bin]]
+name = "dlt-receive"
+path = "main.rs"
+
+[dependencies]
+chrono = "0.4"
+dlt-core = { path = "../core" }
+dlt-transport = { path = "../transport" }

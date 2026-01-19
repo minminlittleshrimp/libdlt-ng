@@ -1,0 +1,11 @@
+[package]
+name = "dlt-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dlt_core"
+path = "mod.rs"
+
+[dependencies]
+# NO external dependencies - pure protocol implementation
